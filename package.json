@@ -1,0 +1,36 @@
+{
+  "name": "Recipe-Blog-using-Nodejs-Expressjs-Ejs-and-MongoDB",
+  "version": "1.0.0",
+  "description": "using Node.js, express.js, Ejs template engine with MongoDB by creating a simple Recipe Blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KKaranja/Recipe-Blog-using-Nodejs-Expressjs-Ejs-and-MongoDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KKaranja/Recipe-Blog-using-Nodejs-Expressjs-Ejs-and-MongoDB/issues"
+  },
+  "homepage": "https://github.com/KKaranja/Recipe-Blog-using-Nodejs-Expressjs-Ejs-and-MongoDB#readme",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "express-fileupload": "^1.3.1",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
